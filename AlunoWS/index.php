@@ -11,7 +11,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Client Soap Aluno</title>
+    <title>portal do Aluno</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -66,7 +66,7 @@
                     <td><?= $aluno->faltas; ?></td>
                     <td>
                      
-                      <a href="edit.php?id=<?= $aluno->id; ?>" class="btn btn-primary btn-sm">Editar</a>
+                      <a href="editar.php?id=<?= $aluno->id; ?>" class="btn btn-primary btn-sm">Editar</a>
                       <a href="remover.php?id=<?= $aluno->id; ?>" class="btn btn-danger btn-sm">Excluir</a>
                         
                     </td>
@@ -74,8 +74,7 @@
                 <?php endforeach; ?>
               </tbody>
             </table>
-    <!-- Fim Home -->
-    
+  
   </body>
    
 </html>
